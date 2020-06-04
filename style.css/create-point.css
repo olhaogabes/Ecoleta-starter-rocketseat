@@ -1,3 +1,7 @@
+body{
+  background: #dbead5;
+}
+
 #page-create-point {
   width: 90%;
   max-width: 1100px;
@@ -33,7 +37,7 @@
 }
 
 form {
-  background-color: white;
+  background-color: #ffffff;
 
   margin: 80px auto;
   margin-top: 80px;
@@ -84,6 +88,7 @@ form select {
   border: 0;
   padding: 16px 24px;
   font-size: 16px;
+  border-radius: 8px;
 
   /* outline: none; */
 }
@@ -104,6 +109,7 @@ form label {
 form .field-group .field + .field {
   /* aplicando estilo em numero/complemento (espaçamento) */
   margin-left: 24px;
+  
 }
 
 form button {
